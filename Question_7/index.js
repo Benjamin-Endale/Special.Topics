@@ -12,8 +12,8 @@ window.addEventListener("click", function (e) {
     let y = e.pageY;
     let h5 = document.createElement("h5");
     h5.classList.add("Pos");
-    h5.style.top = `${y - 15}px`;
-    h5.style.left = `${x}px`;
+    h5.style.top = `${y - 20}px`;
+    h5.style.left = `${x + 5}px`;
     h5.style.display = "block";
     h5.innerText = "Not here!";
     body.appendChild(h5);

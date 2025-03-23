@@ -7,7 +7,7 @@ const puppeteer = require("puppeteer");
     "https://benjamin-endale.github.io/Special.Topics/Question_6/",
     {
       waitUntil: "domcontentloaded",
-      timeout: 30000, // Set a timeout of 30 seconds
+      timeout: 30000, //
     }
   );
 
